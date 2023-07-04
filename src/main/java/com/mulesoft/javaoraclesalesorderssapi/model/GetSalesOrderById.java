@@ -1,0 +1,138 @@
+package com.mulesoft.javaoraclesalesorderssapi.model;
+
+import org.springframework.stereotype.Component;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Component
+@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@ToString
+public class GetSalesOrderById {
+    private Integer HeaderId;
+    private String OrderNumber;
+    private String SourceTransactionNumber;
+    private String SourceTransactionSystem;
+    private String SourceTransactionId;
+    private Integer BusinessUnitId;
+    private String BusinessUnitName;
+    private String TransactionOn;
+    private Integer BuyingPartyId;
+    private String BuyingPartyName;
+    private String BuyingPartyNumber;
+    private Object BuyingPartyPersonFirstName;
+    private Object BuyingPartyPersonLastName;
+    private Object BuyingPartyPersonMiddleName;
+    private Object BuyingPartyPersonNameSuffix;
+    private Object BuyingPartyPersonTitle;
+    private Integer BuyingPartyContactId;
+    private String BuyingPartyContactName;
+    private String BuyingPartyContactNumber;
+    private String BuyingPartyContactFirstName;
+    private String BuyingPartyContactLastName;
+    private Object BuyingPartyContactMiddleName;
+    private Object BuyingPartyContactNameSuffix;
+    private Object BuyingPartyContactTitle;
+    private Integer PreferredSoldToContactPointId;
+    private Object CustomerPONumber;
+    private String TransactionTypeCode;
+    private String TransactionType;
+    private Object SubstituteAllowedFlag;
+    private Object PackingInstructions;
+    private Object ShippingInstructions;
+    private Object ShipsetFlag;
+    private Boolean PartialShipAllowedFlag;
+    private String RequestedShipDate;
+    private Object RequestedArrivalDate;
+    private Object LatestAcceptableShipDate;
+    private Object LatestAcceptableArrivalDate;
+    private Object EarliestAcceptableShipDate;
+    private Object ShipmentPriorityCode;
+    private Object ShipmentPriority;
+    private Object ShippingCarrierId;
+    private Object ShippingCarrier;
+    private Object ShippingServiceLevelCode;
+    private Object ShippingServiceLevel;
+    private Object ShippingModeCode;
+    private Object ShippingMode;
+    private Object FOBPointCode;
+    private Object FOBPoint;
+    private Object DemandClassCode;
+    private Object DemandClass;
+    private Object FreightTermsCode;
+    private Object FreightTerms;
+    private Integer RequestedFulfillmentOrganizationId;
+    private String RequestedFulfillmentOrganizationCode;
+    private String RequestedFulfillmentOrganizationName;
+    private Object SupplierId;
+    private Object SupplierName;
+    private Object SupplierSiteId;
+    private Integer PaymentTermsCode;
+    private String PaymentTerms;
+    private Object SalespersonId;
+    private Object Salesperson;
+    private Object PricedOn;
+    private String TransactionalCurrencyCode;
+    private String TransactionalCurrencyName;
+    private String AppliedCurrencyCode;
+    private Object CurrencyConversionDate;
+    private Object CurrencyConversionRate;
+    private Object CurrencyConversionType;
+    private String PricingSegmentCode;
+    private String PricingSegment;
+    private Integer PricingStrategyId;
+    private String PricingStrategyName;
+    private Boolean AllowCurrencyOverrideFlag;
+    private Object SegmentExplanationMessageName;
+    private String PricingSegmentExplanation;
+    private Object StrategyExplanationMessageName;
+    private String PricingStrategyExplanation;
+    private Object SalesChannelCode;
+    private Object SalesChannel;
+    private Object Comments;
+    private String StatusCode;
+    private String Status;
+    private Boolean OnHoldFlag;
+    private Boolean CanceledFlag;
+    private Object CancelReasonCode;
+    private Object CancelReason;
+    private Object RequestedCancelDate;
+    private Integer RequestingBusinessUnitId;
+    private String RequestingBusinessUnitName;
+    private Integer RequestingLegalEntityId;
+    private String RequestingLegalEntity;
+    private Boolean FreezePriceFlag;
+    private Boolean FreezeShippingChargeFlag;
+    private Boolean FreezeTaxFlag;
+    private Boolean SubmittedFlag;
+    private String SubmittedBy;
+    private String SubmittedDate;
+    private Object TransactionDocumentTypeCode;
+    private Boolean PreCreditCheckedFlag;
+    private Object RevisionSourceSystem;
+    private Integer SourceTransactionRevisionNumber;
+    private Object TradeComplianceResultCode;
+    private Object TradeComplianceResult;
+    private String LastUpdatedBy;
+    private String LastUpdateDate;
+    private String CreatedBy;
+    private String CreationDate;
+    private Boolean OpenFlag;
+    private Object OrigSystemDocumentReference;
+    private String OrderKey;
+    private String AppliedCurrencyName;
+    private Object SupplierSiteName;
+    private Object MessageText;
+    private Object AgreementHeaderId;
+    private Object AgreementNumber;
+    private Object AgreementVersionNumber;
+}
